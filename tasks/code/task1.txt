@@ -1,0 +1,13 @@
+Use the provided PSD file to create an email message.
+
+1: 
+Code in format that would be sent by the email server and be valid for all mail clients. 
+The code must comply the HTML4.1/XHTML 1.0 standards.
+Try to support the top 5 mail clients: apple mail, android mail, gmail, yahoo mail, outlook.
+
+All assets required — images, copy/text, colors, etc., are in the PSD file.
+
+2: 
+Make it responsive for those clients that support responsive email version. 
+The 2 columns of images need to rearrange into 1. Other parts of the email should scale down where necessary.
+

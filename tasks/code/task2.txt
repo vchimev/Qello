@@ -1,0 +1,11 @@
+Use the provided PNG image and create a web page.
+
+
+1: 
+Code must follow modern web standarts (valid HTML5 and CSS3) and be rendered properly under all popular web browsers: Chrome, Firefox, Edge, Safari under both OS mac & win
+All needed assets - images, copy, colors etc. are in PNG file
+
+2: 
+Must be responsive with 4 breakpoints 768px, 1024px, 1264px, 1504px and full width web site.
+NOTE - feel free to decide how to order and reorder all sections, parts and menus of the page.
+
