@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<!--
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qello Newsletter</title>
+    <!--
+      Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients
+      -->
+    <!--
+      When use in Email please remove all comments as it is removed by Email clients
+      -->
+    <!--
+      important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered
+      -->
+    <style type="text/css">
+body {
+    /* background-color: lime; */
+    margin: 0;
+}
+body,
+table,
+td,
+p,
+a,
+li,
+blockquote {
+    -webkit-text-size-adjust: none!important;
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+p {
+    margin: 5px;
+}
+
+@media screen and (max-width: 640px) {
+    /* Styling for objects with screen size less than 640px; */
+    /* All elements are 100% width */
+    
+    *[class="100p"] {
+        width: 100% !important;
+        height: auto !important;
+    }
+    /* 100percent width section with 20px padding */
+    
+    *[class="100pad"] {
+        width: 100% !important;
+        padding: 20px;
+    }
+    /* 100percent width section with 20px padding left and right */
+    
+    *[class="100padleftright"] {
+        width: 100% !important;
+        padding: 0 20px 0 20px;
+    }
+    /* 100percent width section with 20px padding top and bottom */
+    
+    *[class="100padtopbottom"] {
+        width: 100% !important;
+        padding: 20px 0px 20px 0px;
+    }
+    body,
+    table,
+    td,
+    p,
+    a,
+    li,
+    blockquote {
+        -webkit-text-size-adjust: none!important;
+        font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    }
+    table {
+        /* All tables are 100% width */
+        
+        width: 100%;
+    }
+    table.responsiveImage {
+        /* Container for images in catalog */
+        
+        height: auto !important;
+        max-width: 30% !important;
+        width: 30% !important;
+    }
+    table.responsiveContent {
+        /* Content that accompanies the content in the catalog */
+        
+        height: auto !important;
+        max-width: 66% !important;
+        width: 66% !important;
+    }
+    .catalog {
+        margin-left: 0% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Styling for objects with screen size less than 480px; */
+    
+    *[class="hide"] {
+        display: none !important;
+    }
+    body,
+    table,
+    td,
+    p,
+    a,
+    li,
+    blockquote {
+        -webkit-text-size-adjust: none!important;
+        font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    }
+    table {
+        /* All tables are 100% width */
+        
+        width: 100% !important;
+        border-style: none !important;
+    }
+    .table.responsiveImage {
+        /* Container for each image now specifying full width */
+        
+        height: auto !important;
+        max-width: 30% !important;
+        width: 30% !important;
+    }
+    .table.responsiveContent {
+        /* Content in catalog occupying full width of cell */
+        
+        height: auto !important;
+        max-width: 66% !important;
+        width: 66% !important;
+    }
+    .catalog {
+        margin-left: 0% !important;
+    }
+    button {
+        width: 90% !important;
+    }
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    height: 57px;
+    width: 262px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 57px;
+    text-align: center;
+    background: url(images/Qello_Button.png) no-repeat;
+}
+.link {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+.text {
+    width: 70%;
+}
+    </style>
+  </head>
+  <body>
+    <table width="100%" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td>
+            <table width="640" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+              <tbody>
+                <tr>
+                  <td>
+                    <table height="105" width="640" bgcolor="#000000" cellpadding="0" cellspacing="0" class="100p">
+                      <tbody>
+                        <tr>
+                          <td align="center">
+                            <a href="https://qello.com/" target="_blank">
+                            <img src="images/Qello_Logo.png" alt="Qello Concerts" width="130" class="logo" />
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table cellpadding="0" cellspacing="0" class="100p">
+                      <tbody>
+                        <tr>
+                          <td align="center">
+                            <a href="https://qello.com/" target="_blank">
+                            <img src="images/Qello_Albums.png" alt="Albums" width="100%" />
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table align="center" cellpadding="0" cellspacing="0" class="100p">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <table align="center" style="line-height: 24px; padding: 25px 0px 15px 0px;" class="text">
+                              <tbody>
+                                <tr>
+                                  <td align="center">
+                                    <h3 style="font-size: 12pt; color: #1C2329;">Congratulations</h3>
+                                    <p style="font-size: 10pt; color: #77848C;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur libero quis lacus faucibus sodales a a dolor. Nulla eleifend lorem id pretium eleifend. Proin sit amet velit tempor gravida urna.</p>
+                                    <div class="button">
+                                      <a href="https://qello.com/" target="_blank" class="link">Start Watching</a>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table bgcolor="d8d8d8" cellpadding="0" cellspacing="0" class="100p">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <table align="center" style="line-height: 22px; padding: 25px 0px;" class="text">
+                              <tbody>
+                                <tr>
+                                  <td align="center">
+                                    <h3 style="font-size: 12pt; color: #1C2329;">Create your ultimate show.</h3>
+                                    <p style="font-size: 10pt; color: #77848C;">With our <strong><u>setlist</u></strong> feature, adipiscing elit. Nunc efficitur libero quis lacus faucibus sodales a a dolor. Nulla eleifend lorem id pretium eleifend.</p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table align="center" cellpadding="0" cellspacing="0" class="catalog" style="padding: 5%">
+                      <!-- Table for catalog -->
+                      <tr>
+                        <td>
+                          <table class="responsive-table" width="50%" align="left" cellspacing="0" cellpadding="0">
+                            <!-- Table container for each image and description in catalog -->
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <table class="table.responsiveImage" cellspacing="0" cellpadding="0">
+                                    <!-- Table container for image -->
+                                    <tbody>
+                                      <tr>
+                                        <td align="center">
+                                          <a href="https://qello.com/" target="_blank">
+                                          <img src="images/Qello_Queen.jpg" alt="Queen" width="275" />
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="table.responsiveContent" cellspacing="0" cellpadding="0" align="left">
+                                    <!-- Table container for content -->
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                          <p style="font-size: 8pt; color: #77848C;">Asset Type</p>
+                                          <p style="font-size: 12pt; color: #1C2329; font-weight: bold;">Showcased Content Title</p>
+                                          <p style="font-size: 10pt; color: #77848C; line-height: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur libero quis lacus faucibus sodales a a dolor.</p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="responsive-table" width="50%" align="right" cellspacing="0" cellpadding="0">
+                            <!-- Table container for each image and description in catalog -->
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <table class="table.responsiveImage" cellspacing="0" cellpadding="0">
+                                    <!-- Table container for image -->
+                                    <tbody>
+                                      <tr>
+                                        <td align="center">
+                                          <a href="https://qello.com/" target="_blank">
+                                          <img src="images/Qello_The_Who.jpg" alt="The Who" width="275" />
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="table.responsiveContent" cellspacing="0" cellpadding="0" align="left">
+                                    <!-- Table container for content -->
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                          <p style="font-size: 8pt; color: #77848C;">Asset Type</p>
+                                          <p style="font-size: 12pt; color: #1C2329; font-weight: bold;">Showcased Content Title</p>
+                                          <p style="font-size: 10pt; color: #77848C; line-height: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur libero quis lacus faucibus sodales a a dolor.</p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="font-size: 0; line-height: 0;" height="20">
+                          <table cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table class="responsive-table" width="50%" align="left" cellspacing="0" cellpadding="0">
+                            <!-- Table container for each image and description in catalog -->
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <table class="table.responsiveImage" cellspacing="0" cellpadding="0">
+                                    <!-- Table container for image -->
+                                    <tbody>
+                                      <tr>
+                                        <td align="center">
+                                          <a href="https://qello.com/" target="_blank">
+                                          <img src="images/Qello_Deep_Cuts.jpg" alt="Deep Cuts" width="275" />
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="table.responsiveContent" cellspacing="0" cellpadding="0" align="left">
+                                    <!-- Table container for content -->
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                          <p style="font-size: 8pt; color: #77848C;">Asset Type</p>
+                                          <p style="font-size: 12pt; color: #1C2329; font-weight: bold;">Showcased Content Title</p>
+                                          <p style="font-size: 10pt; color: #77848C; line-height: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur libero quis lacus faucibus sodales a a dolor.</p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="responsive-table" width="50%" align="right" cellspacing="0" cellpadding="0">
+                            <!-- Table container for each image and description in catalog -->
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <table class="table.responsiveImage" cellspacing="0" cellpadding="0">
+                                    <!-- Table container for image -->
+                                    <tbody>
+                                      <tr>
+                                        <td align="center">
+                                          <a href="https://qello.com/" target="_blank">
+                                          <img src="images/Qello_Delirium.jpg" alt="Polyrhithmyc Delirium" width="275" />
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="table.responsiveContent" cellspacing="0" cellpadding="0" align="left">
+                                    <!-- Table container for content -->
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                          <p style="font-size: 8pt; color: #77848C;">Asset Type</p>
+                                          <p style="font-size: 12pt; color: #1C2329; font-weight: bold;">Showcased Content Title</p>
+                                          <p style="font-size: 10pt; color: #77848C; line-height: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur libero quis lacus faucibus sodales a a dolor.</p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table height="140" width="80%" align="center" cellpadding="0" cellspacing="0">
+                      <tr height="140">
+                        <td align="center">
+                          <a href="http://www.apple.com/" target="_blank">
+                          <img src="images/apple.png" alt="Apple" width="42" />
+                          </a>
+                        </td>
+                        <td align="center">
+                          <a href="https://www.android.com/" target="_blank">
+                          <img src="images/android.png" alt="Android" width="42" />
+                          </a>
+                        </td>
+                        <td align="center" class="hide">
+                          <a href="http://www.sony.com/" target="_blank">
+                          <img src="images/sony.png" alt="Sony" width="42" />
+                          </a>
+                        </td>
+                        <td align="center" class="hide">
+                          <a href="https://www.roku.com/" target="_blank">
+                          <img src="images/roku.png" alt="Roku" width="42" />
+                          </a>
+                        </td>
+                        <td align="center">
+                          <a href="https://www.amazon.com/" target="_blank">
+                          <img src="images/amazon.png" alt="Amazon" width="42" />
+                          </a>
+                        </td>
+                        <td align="center">
+                          <a href="http://www.microsoft.com/en-us/windows/" target="_blank">
+                          <img src="images/windows.png" alt="Windows" width="42" />
+                          </a>
+                        </td>
+                        <td align="center" class="hide">
+                          <a href="https://www.playstation.com/" target="_blank">
+                          <img src="images/playstation.png" alt="PlayStation" width="42" />
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr bgcolor="#272727">
+                  <td>
+                    <table align="center" cellpadding="0" cellspacing="0" style="line-height: 16px;">
+                      <tr>
+                        <td align="center">
+                          <p style="font-size: 8pt; color: #BDBDBD;">
+                            &copy; 2016 Qello, LLC. All rights reserved.<br />
+                            &copy; 2016 Qello, LLC. 40 West 17th Street Suite 2A, New York, NY 10017.<br />
+                            Manage your email notification <a href="https://qello.com/" target="_blank" style="color: #77848C;">preferences</a>.<br />
+                            If you prefer not to receive emails like this from Qello, you may <a href="https://qello.com/" target="_blank" style="color: #77848C;">unsubscribe</a>.
+                          </p>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table align="center" cellpadding="0" cellspacing="0" style="margin-top: 10px;">
+                            <tr>
+                              <td width="65" align="center">
+                                <a href="https://www.facebook.com/qello/" target="_blank">
+                                <img src="images/facebook.png" alt="Facebook Qello Concerts" width="42" />
+                                </a>
+                              </td>
+                              <td width="65" align="center">
+                                <a href="https://twitter.com/QelloConcerts/" target="_blank">
+                                <img src="images/twitter.png" alt="Twitter Qello Concerts" width="42" />
+                                </a>
+                              </td>
+                              <td width="65" align="center">
+                                <a href="https://plus.google.com/+Qello/" target="_blank">
+                                <img src="images/google+.png" alt="Google+ Qello Concerts" width="42" />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr class="hide">
+                        <td height="50">
+                          <table width="96%" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td></td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
